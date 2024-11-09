@@ -22,9 +22,9 @@ group :jekyll_plugins do
   gem 'unicode_utils'
   gem 'webrick'
 
-  # Add these gems with specified versions for Sass
-  gem 'jekyll-sass-converter'
-  gem 'sass-embedded'
+  # # Add these gems with specified versions for Sass
+  # gem 'jekyll-sass-converter'
+  # gem 'sass-embedded'
 end
 
 group :other_plugins do
