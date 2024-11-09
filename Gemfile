@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.3.4'
-
 group :jekyll_plugins do
   gem 'classifier-reborn'
+  gem 'jekyll'
   gem 'jekyll-archives'
   gem 'jekyll-email-protect'
   gem 'jekyll-feed'
@@ -24,8 +23,8 @@ group :jekyll_plugins do
   gem 'webrick'
 
   # Add these gems with specified versions for Sass
-  gem 'jekyll-sass-converter', '~> 3.0'
-  gem 'sass-embedded', '~> 1.69'
+  gem 'jekyll-sass-converter'
+  gem 'sass-embedded'
 end
 
 group :other_plugins do
