@@ -252,7 +252,7 @@ DEPENDENCIES
   css_parser
   feedjira
   httparty
-  jekyll
+  jekyll (~> 4.3.4)
   jekyll-archives
   jekyll-email-protect
   jekyll-feed
@@ -263,12 +263,14 @@ DEPENDENCIES
   jekyll-minifier
   jekyll-paginate-v2
   jekyll-regex-replace
+  jekyll-sass-converter (~> 3.0)
   jekyll-scholar
   jekyll-sitemap
   jekyll-tabs
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
+  sass-embedded (~> 1.69)
   unicode_utils
   webrick
 
